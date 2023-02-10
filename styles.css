@@ -1,0 +1,118 @@
+.banner01{
+    position:absolute;
+    left:0;
+   top:0;
+    background-color:#fa9400;
+    width:100%;
+   height:10% 
+}
+.banner02{
+    position:absolute;
+    left:0;
+   top:1500px;
+    background-color:#020c33;
+    width:100%;
+    height:190px
+}
+.imgcomments{
+    position:absolute;
+    left:20%;
+   top:850px;
+   width:60%;
+   height:520px;
+   border-radius:25px;
+   box-shadow:0 15px 25px rgba(0,0,0,0.692),0 5px 10px rgba(0,0,0,0.05)
+}
+body{
+   font-family:Arial,sans-serif
+}
+.container{
+   max-width:800px;
+   margin:0 auto
+}
+h2{
+   text-align:center
+}
+h1,h5,p{
+   text-align:center;
+   color:#fff
+}
+.disclamer{
+   color:#fff;
+   width:70%
+}
+.video-container{
+   position:relative;
+   padding-bottom:56.25%;
+   padding-top:30px;
+   height:0;
+   overflow:hidden;
+   border-radius:30px;
+   box-shadow:0 0 90px 4px #fa9400,0 0 0 currentColor
+}
+.video-container iframe{
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%
+}
+.buy-button{
+   color:#fff;
+   background-color:#fa9400;
+   padding:10px 20px;
+   border-radius:20px;
+   font-size:1.2em;
+   text-transform:uppercase;
+   font-weight:700;
+   transition:background-color .3s ease
+}
+.buy-button:hover{
+   background-color:#0f0;
+   transform:scale(1.1);
+   box-shadow:2px 2px 8px rgba(0,0,0,0.5)
+}
+@media (max-width: 600px){
+   .container{
+       width:90%
+   }
+   h1,h2{
+       font-size:1.5em
+   }
+   .buy-button{
+       color:#fff;
+       background-color:#fa9400;
+       padding:10px;
+       border-radius:20px;
+       font-size:18px;
+       text-transform:uppercase;
+       font-weight:700;
+       text-align:center;
+       transition:background-color .3s ease
+   }
+   .banner01{
+       position:absolute;
+       left:0;
+       top:0;
+       background-color:#fa9400;
+       width:100%;
+       height:80px
+   }
+   .banner02{
+       position:absolute;
+       left:0;
+       top:850px;
+       background-color:#020c33;
+       width:100%;
+       height:230px
+   }
+   .imgcomments{
+       position:absolute;
+       left:10%;
+       top:645px;
+       width:80%;
+       height: 200px;
+       border-radius:15px;
+       box-shadow:0 15px 25px rgba(0,0,0,0.692),0 5px 10px rgba(0,0,0,0.05)
+   }
+}
