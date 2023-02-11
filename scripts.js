@@ -11,3 +11,8 @@ function timer() {
 window.onload = function() {
     counter = setInterval(timer, 1e3)
 };
+var video = document.querySelector("iframe");
+var text = document.querySelector("text");
+video.addEventListener("click", function () {
+  text.hidden = true;
+});
