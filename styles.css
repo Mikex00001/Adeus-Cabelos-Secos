@@ -10,9 +10,10 @@
     position:absolute;
     left:0;
    top:1500px;
-    background-color:#020c33;
+    background-color:#fa9400;
     width:100%;
-    height:190px
+    height:190px;
+    box-shadow:0 15px 90px #ffa318d7;
 }
 .imgcomments{
     position:absolute;
@@ -21,7 +22,6 @@
    width:65%;
    height:520px;
    border-radius:25px;
-   box-shadow:0 15px 25px rgba(0,0,0,0.692),0 5px 10px rgba(0,0,0,0.05)
 }
 body{
    font-family:Arial,sans-serif
@@ -47,7 +47,7 @@ h1,h5,p{
    padding-top:30px;
    height:0;
    overflow:hidden;
-   box-shadow: 0 0 90px 4px #fa9400,0 0 0 currentColor
+   box-shadow: 0 0 70px 2px #fa9400,0 0 0 currentColor
 }
 .video-container iframe{
    position:absolute;
