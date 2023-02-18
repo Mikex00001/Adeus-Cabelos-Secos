@@ -247,7 +247,7 @@ a:hover {
     table{
       position: absolute;
       top: 1500px;
-      left: 10%;
+      left: 5%;
       border-collapse: separate;
       border-spacing:13px;
 
@@ -255,14 +255,14 @@ a:hover {
 
    .tdbonus{
       position: relative;
-      left:0%;
+      right: 2.5%;
       background-image: url(https://www.imagemhost.com.br/images/2023/02/18/Design-sem-nome.png);
       background-position: center center;
       background-size: cover;
       z-index: -1;
       border: 2px solid;
       border-radius: 20px;
-      width: 325px;
+      width: 350px;
       height: 370px;
    }
    .textbonus{
@@ -300,7 +300,7 @@ a:hover {
       left: 0%;
       top: 650px;
       background-color: #fa9400;
-      width: 100%;
+      width: 105%;
       height: 780px;
       background-image: url(https://www.imagemhost.com.br/images/2023/02/18/Design-sem-nome.png);
      background-position: center center;
@@ -325,7 +325,7 @@ a:hover {
    }
    .buy-button2{
       position:absolute;
-      left:25%;
+      left:22%;
       top:4500%;
       color:#fff;
       background-color:#fa9400;
