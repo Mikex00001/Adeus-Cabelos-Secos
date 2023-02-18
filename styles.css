@@ -313,7 +313,7 @@ a:hover {
    .buy-button1{
       position: absolute;
       top: 690%;
-      left: 25%;
+      left: 100px;
        color:#fff;
        padding:10px;
        border-radius:20px;
