@@ -247,7 +247,7 @@ a:hover {
     table{
       position: absolute;
       top: 1500px;
-      left: 5%;
+      left: 10%;
       border-collapse: separate;
       border-spacing:13px;
 
@@ -313,7 +313,7 @@ a:hover {
    .buy-button1{
       position: absolute;
       top: 690%;
-      left: 100px;
+      left: 25%;
        color:#fff;
        padding:10px;
        border-radius:20px;
@@ -325,7 +325,7 @@ a:hover {
    }
    .buy-button2{
       position:absolute;
-      left:22%;
+      left:25%;
       top:4500%;
       color:#fff;
       background-color:#fa9400;
