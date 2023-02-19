@@ -221,15 +221,7 @@ a:hover {
   .container{
       width:90%
   }
-  .h2bonus{
-   font-size: 100%;
-     position: relative;
-     top: 5%;
-     left: 40%;
-     color: #fff;
-     text-align: left;
-     width: 60%;
-  }
+ 
   .imgsmartm2{
      position: relative;
      top: 10%;
@@ -248,7 +240,7 @@ a:hover {
    table{
      position: absolute;
      top: 1500px;
-     left: 10%;
+     left: 7%;
      width: 80%;
      border-collapse: separate;
      border-spacing:13px;
@@ -262,19 +254,28 @@ a:hover {
      z-index: -1;
      border: 2px solid;
      border-radius: 20px;
-     width: 300px;
+     width: 250%;
      height: 320px;
   }
+  .h2bonus{
+    font-size: 100%;
+      position: relative;
+      top: 5%;
+      left: 40%;
+      color: #fff;
+      text-align: left;
+      width: 60%;
+   }
   .textbonus{
      font-size: 90%;
      position: absolute;
      font-weight: lighter;
      font-family: Arial, sans-serif;
      line-height: 1.2;
-     top: 5%;
-     left: 10%;
-     width: 85%;
-     height: 75%;
+     top: 10%;
+     left: 15%;
+     width: 235%;
+     height: 80%;
   }
   .trbonus{
      position:absolute;
